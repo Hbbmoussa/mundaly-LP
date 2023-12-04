@@ -25,7 +25,7 @@
         >
          &#9776   
         </button>
-        <nav class="hidden sm:block space-x-8 text-lg font-inter font-semibold leading-6 tracking-wide text-left" aria-label="main">
+        <nav class="hidden sm:block space-x-8 text-lg font-inter  leading-6 tracking-wide text-left" aria-label="main">
             <a href="#home" class="hover:opacity-90 text-nav-el-color">HOME</a>
             <a href="#categories" class="hover:opacity-90 text-nav-el-color">CATEGORIES</a>
             <a href="#cvoice" class="hover:opacity-90 text-nav-el-color">#COMMUNITYVOICE</a>
@@ -46,27 +46,168 @@
                     <div class="basis-3/4 mt-4 mr-32">
                         <div id="title" class="flex justify-between ">  
                             <p class="font-figtree text-2xl font-bold leading-12 tracking-normal text-left text-cocoa-color">Cocoa360 <span class="font-figtree m-4 text-base font-light leading-7 tracking-light text-left">claimed</span></p>
-                            <button class="w-[161px] h-[48px] px-8 py-3 rounded-full border border-solid border-gray-300 gap-2 text-cocoa-color bg-call-action">
+                            <button class="w-[161px] h-[48px] font-inter px-8 py-3 rounded-full border border-solid border-gray-300 gap-2 text-cocoa-color bg-call-action">
                                 Visit website
                               </button>
                               
                         </div>
-                        <p class="font-sans text-hero-text-color mb-3 font-normal leading-[28px] tracking-normal text-left"><i class="fa fa-location-dot"></i>Tarkwa Bremen, Ghana
-                            <button class="w-[172px] h-[32px] mx-4 px-2 py-0.5 rounded-md border border-solid border-impact-deliverBTN-color gap-2 font-inter font-light tracking-normal text-left">
+                        <p class="font-inter text-hero-text-color mb-3 leading-[28px] tracking-normal text-left"><i class="fa fa-location-dot"></i>Tarkwa Bremen, Ghana
+                            <button class="w-[172px] h-[32px] mx-4 px-2 rounded-md border border-solid border-impact-deliverBTN-color gap-2 font-inter tracking-normal text-left">
                             impact deliver
                             <i class="fa fa-check ml-5 text-impact-deliverBTN-color"></i>
                           </button> 
-                          <button class="w-[172px] h-[32px] mx-4 px-2 py-0.5 rounded-md border border-solid border-impact-funderBTN-color gap-2 font-inter font-light tracking-normal text-left"></buttonclass>impact funder
+                          <button class="w-[172px] h-[32px] font-inter mx-4 px-2 rounded-md border border-solid border-impact-funderBTN-color gap-2 font-inter  tracking-normal text-left"></buttonclass>impact funder
                             <i class="fa fa-xmark ml-5 text-impact-funderBTN-color"></i>
                         </button></p>
-                        <p class="font-sans text-hero-text-color font-normal leading-[28px] tracking-normal text-left">Cocoa360 has pioneered the farm-for-impact model, leveraging farm revenues to improve community health and education.</p>
+                        <p class="font-inter text-hero-text-color  leading-[28px] tracking-normal text-left">Cocoa360 has pioneered the farm-for-impact model, leveraging farm revenues to improve community health and education.</p>
                     </div>
                   </div>
 
           </section>
           
-          <section id="stat"></section>
+          <section id="stat" class="mt-16">
+            <div class="flex flex-row">
+                <div class="basis-9/12">
+                    <!--Tabs navigation-->
+<ul
+class="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0"
+role="tablist"
+data-te-nav-ref>
+<li role="presentation">
+  <a
+    href="#tabs-home"
+    class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent pb-1  text-xl text-cocoa-color font-inter leading-[29px]  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-[#282668] data-[te-nav-active]:text-cocoa-color "
+    data-te-toggle="pill"
+    data-te-target="#tabs-home"
+    data-te-nav-active
+    role="tab"
+    aria-controls="tabs-home"
+    aria-selected="true"
+    >Rating Overviews</a
+  >
+</li>
+<li role="presentation" class="mx-7">
+  <a
+    href="#tabs-profile"
+    class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent pb-1  text-xl text-cocoa-color font-inter leading-[29px]  hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-[#282668] data-[te-nav-active]:text-cocoa-color "
+    data-te-toggle="pill"
+    data-te-target="#tabs-profile"
+    role="tab"
+    aria-controls="tabs-profile"
+    aria-selected="false"
+    >Stories</a
+  >
+</li>
+<li role="presentation">
+  <a
+    href="#tabs-messages"
+    class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent  pb-1  text-xl font-inter leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-[#282668] data-[te-nav-active]:text-cocoa-color"
+    data-te-toggle="pill"
+    data-te-target="#tabs-messages"
+    role="tab"
+    aria-controls="tabs-messages"
+    aria-selected="false"
+    >Rating Report</a
+  >
+</li>
+
+</ul>
+
+<!--Tabs content-->
+<div class="mb-6">
+<div
+  class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block font-figtree text-3xl  leading-[48px] tracking-normal text-cocoa-color text-left"
+  id="tabs-home"
+  role="tabpanel"
+  aria-labelledby="tabs-home-tab"
+  data-te-tab-active>
+  Recommondation
+
+
+<div class="mb-2 max-w-sm p-4 font-inter text-sm bg-[#474586] border border-gray-200 rounded-lg shadow">
+    <span class="fa fa-star checked text-rating-starts-color"></span>
+    <span class="fa fa-star checked text-rating-starts-color"></span>
+    <span class="fa fa-star checked text-rating-starts-color"></span>
+    <span class="fa fa-star checked text-rating-starts-color"></span>
+    <span class="fa fa-star checked text-rating-starts-color"></span>
+    <a href="#">
+        <h5 class="mb-2 text-xm font-inter tracking-tight text-rating-starts-color ">Recommendation: Fund</h5>
+    </a>
+    <p class="mb-3 font-inter text-[#FFFFFF] text-sm">Cocoa360 has a Community Trust Score of 91% from 210* survey responses and a 4.5-star rating from 500 reviews. If you believe in their mission, you can support them with confidence.
+        </p>
+    <a href="#" class="mb-3 font-inter inline-flex items-center text-rating-starts-color hover:underline">
+        Learn more about our methodology. See how we combat fake reviews and survey responses.
+    </a>
+    <p class="mb-3 font-inter text-[#FFFFFF] text-sm">
+        We deem 100 or more responses as statistically significant.
+    </p>
+</div>
+
+</div>
+<div
+  class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+  id="tabs-profile"
+  role="tabpanel"
+  aria-labelledby="tabs-profile-tab">
+  Tab 2 content
+</div>
+<div
+  class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+  id="tabs-messages"
+  role="tabpanel"
+  aria-labelledby="tabs-profile-tab">
+  Tab 3 content
+</div>
+
+</div>
+            </div>
+
+            <div class="basis-3/12">
+
+
+<div class="w-full max-w-sm p-4 bg-[#282668] font-inter border border-gray-200 rounded-lg shadow ">
+    
+    <div class="flex flex-col items-center pb-5">
+        
+        <h5 class="mb-1 text-xl font-inter text-gray-900 dark:text-white">Community Trust Score</h5>
+        <span class="mb-1 text-xs text-[#E2E8F0] font-inter dark:text-white">Overall organization rating:</span>
+        <span class="mb-1 text-xs text-[#E2E8F0] font-inter dark:text-white">
+            <span class="fa fa-star checked text-rating-starts-color2"></span>
+            <span class="fa fa-star checked text-rating-starts-color2"></span>
+            <span class="fa fa-star checked text-rating-starts-color2"></span>
+            <span class="fa fa-star checked text-rating-starts-color2"></span>
+            <span class="fa fa-star checked text-rating-starts-color2"></span>
+        </span>
+        <span class="mb-1 text-sm text-[#E2E8F0] font-inter font-semibold dark:text-white">91%</span>
+        
+    </div>
+    <div class="mb-1 text-base font-inter dark:text-white">Social Impact Fidelity</div>
+    <div class="w-full h-4 mb-4 bg-[#464490] rounded-full dark:bg-[#464490]">
+        <div class="h-4  rounded-full bg-[#26D76D] dark:bg-[#26D76D]" style="width: 97%"></div>
+    </div>
+    <div class="mb-1 text-base font-inter dark:text-white">Community Perception</div>
+    <div class="w-full h-4 mb-4 bg-[#464490] rounded-full dark:bg-[#464490]">
+        <div class="h-4  rounded-full bg-[#26D76D] dark:bg-[#26D76D]" style="width: 98%"></div>
+    </div>
+    <div class="mb-1 text-base font-inter dark:text-white">Facilitation Strategy</div>
+    <div class="w-full h-4 mb-4 bg-[#464490] rounded-full dark:bg-[#464490]">
+        <div class="h-4  rounded-full bg-[#26D76D] dark:bg-[#26D76D]" style="width: 95%"></div>
+    </div>
+    <div class="flex items-center justify-between">
+        <span class="text-base font-inter dark:text-white">Profile Status</span>
+        <a href="#" class="text-cocoa-color bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-0.5 text-center dark:bg-[#F8FAFC] dark:hover:bg-blue-700 dark:focus:ring-blue-800">Claimed</a>
+    </div>
+    <button type="button" class="mt-4 text-white bg-[#A6EBE3] hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-[#A6EBE3] font-medium rounded-3xl text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Take a survey</button>
+
+</div>
+
+            </div>
+        </div>
+        </section>
     </main>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+  <script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </html>
