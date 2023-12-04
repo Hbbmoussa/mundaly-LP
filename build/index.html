@@ -7,13 +7,13 @@
     <title>mundaly-lp</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="min-h-screen bg-slate-50">
+  <body class="min-h-screen ">
     <header>
       <section
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        class="max-w-6xl items-center flex justify-between mx-auto p-4 mt-4" 
       >
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="img/mundalylogo.png" class="h-8" alt="mudaly Logo" />
+        <a href="#" class="text-xl font-medium">
+          <img src="img/munlogo.svg" class="h-8" alt="mudaly Logo" />
         </a>
         <button
           id="mobile-open-button"
@@ -23,8 +23,33 @@
         >
          &#9776   
         </button>
-        
+        <nav class="hidden sm:block space-x-8 text-lg font-inter font-semibold leading-6 tracking-wide text-left" aria-label="main">
+            <a href="#home" class="hover:opacity-90 text-nav-el-color">HOME</a>
+            <a href="#categories" class="hover:opacity-90 text-nav-el-color">CATEGORIES</a>
+            <a href="#cvoice" class="hover:opacity-90 text-nav-el-color">#COMMUNITYVOICE</a>
+            <a href="" class="hover:opacity-90">BUTTON</a>
+        </nav>
       </section>
     </header>
+    <main class="max-w-6xl mx-auto mt-20">
+        <section id="hero" class="relative border border-solid border-gray-300 rounded-lg h-96" >
+            <a href="#">
+                <img class=" rounded-t-lg" src="img/Mask-group.png" alt="hero image" />
+            </a>
+                <div class="flex flex-row">
+                    <div class="basis-1/4">01</div>
+                    <div class="basis-3/4 mt-4 ">
+                        <div id="title" class="flex justify-between mr-72">  
+                            <p class="font-figtree text-2xl font-bold leading-12 tracking-normal text-left text-cocoa-color">Cocoa360 <span class="font-figtree text-base font-medium leading-7 tracking-normal text-left">claimed</span></p>
+                            <button>Button</button>
+                        </div>
+                        <p>Tarkwa Bremen, Ghana <button>impact deliver</button> <button>impact funder</button></p>
+                        <p>Cocoa360 has pioneered the farm-for-impact model, leveraging farm revenues to improve community health and education.</p>
+                    </div>
+                  </div>
+
+          </section>
+          
+    </main>
   </body>
 </html>
