@@ -859,6 +859,70 @@ input[type="range"]:active::-webkit-slider-thumb {
   top: -74px;
 }
 
+.top-44 {
+  top: 11rem;
+}
+
+.top-\[44\] {
+  top: 44;
+}
+
+.top-\[180px\] {
+  top: 180px;
+}
+
+.top-\[-180px\] {
+  top: -180px;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.left-44 {
+  left: 11rem;
+}
+
+.left-40 {
+  left: 10rem;
+}
+
+.left-14 {
+  left: 3.5rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.left-36 {
+  left: 9rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
 .\!z-40 {
   z-index: 40 !important;
 }
@@ -921,6 +985,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .z-\[-1\] {
   z-index: -1;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .order-1 {
